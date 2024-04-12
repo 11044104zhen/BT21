@@ -1,0 +1,127 @@
+.logo {
+    width: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 4.5%;
+}
+
+ul,
+li b {
+    margin: 0;
+    padding: 0;
+    font-style: "標楷體";
+    letter-spacing: 12px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+}
+
+li {
+    display: inline-block;
+    margin: 0em 0em 0em 17em;
+    ;
+
+}
+
+.shopping {
+    width: 3.5%;
+    display: inline-block;
+    margin-top: -0.5%;
+    margin-right: 2%;
+
+}
+
+.member {
+    width: 2.5%;
+    margin-top: 0%;
+    margin-right: 1%;
+}
+
+header a {
+    font-size: 27px;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+    max-width: 1000%;
+}
+
+.bigword2 {
+    font-size: 60px;
+    font-family: "Rubik";
+    Color: transparent;
+    background-image: linear-gradient(45deg, #000093, #97CBFF 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.container {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.container .item {
+    flex: 1 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+.container .item:hover {
+    flex: 10 1;
+}
+
+.container .item:nth-child(1) {
+    background-image: url(images/ARMY.png);
+}
+
+.container .item:nth-child(2) {
+    background-image: url(images/J-hope.png);
+}
+
+.container .item:nth-child(3) {
+    background-image: url(images/Jimin.png);
+}
+
+.container .item:nth-child(4) {
+    background-image: url(images/Jin.png);
+}
+
+.container .item:nth-child(5) {
+    background-image: url(images/JK.png);
+}
+
+.container .item:nth-child(6) {
+    background-image: url(images/RM.png);
+}
+
+.container .item:nth-child(7) {
+    background-image: url(images/Suga.png);
+}
+
+.container .item:nth-child(8) {
+    background-image: url(images/V.png);
+}
+
+.footer {
+    height: 5%;
+    background-image: url(images/Footerbg.jpg);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}

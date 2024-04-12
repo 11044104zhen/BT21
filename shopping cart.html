@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>購物車</title>
+    <link rel="stylesheet" href="shopping cart.css">
+</head>
+<body style="margin: 0%;">
+    <header>
+        <div class="title">
+            <a href="../abs/index.html"><span style="vertical-align: middle;"><img src="images/logo.png" alt="" class="logo"></span></a>
+           
+            <nav>
+                <ul>
+                    <b><li><a href="../abs/store.html">商品</a></li></b>
+                    <b><li><a href="../abs/member.html">會員</a></li></b>
+                    <b><li><a href="../abs/introduce.html">角色介紹</a></li></b>
+                    <b><li><a href="../abs/about.html">關於我們</a></li></b>
+                    <a href="shopping cart.html"><img src="images/shoppimg.png" alt="購物車" class="shopping" style="float: right ; vertical-align: middle;" ></a>
+                    <a href="member.html"><img src="images/member.png" alt="會員" class="member" style="float: right;"></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>商品</th>
+                        <th>單價</th>
+                        <th>數量</th>
+                        <th>小計</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="product-info">
+                                <div>
+                                    <h3>商品 1</h3>
+                                </div>
+                                <img src="images/doll.jpg" alt="商品 1" >
+                            </div>
+                        </td>
+                        <td>$780</td>
+                        <td>
+                            <div class="quantity">
+                                <button class="decrement">-</button>
+                                <input type="text" value="1">
+                                <button class="increment">+</button>
+                            </div>
+                        </td>
+                        <td>$780</td>
+                        <td><button>刪除</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product-info">
+                                <div>
+                                    <h3>商品 2</h3>
+                                </div>
+                                <img src="images/mug.jfif" alt="商品 2">
+                            </div>
+                        </td>
+                        <td>$800</td>
+                        <td>
+                            <div class="quantity">
+                                <button class="decrement">-</button>
+                                <input type="text" value="2">
+                                <button class="increment">+</button>
+                            </div>
+                        </td>
+                        <td>$1,600</td>
+                        <td><button>刪除</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td style="font-size: 30px;">總計:</td>
+                        <td style="font-size: 30px;">$2,380</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button style="font-size: 30px; float: right; margin-right: 1%;">結帳</button>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
+</body>
+</html>

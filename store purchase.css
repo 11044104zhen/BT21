@@ -1,0 +1,127 @@
+.logo {
+    width: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 4.5%;
+}
+
+ul,
+li b {
+    margin: 0;
+    padding: 0;
+    font-style: "標楷體";
+    letter-spacing: 12px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+}
+
+li {
+    display: inline-block;
+    margin: 0em 0em 0em 17em;
+    ;
+
+}
+
+.shopping {
+    width: 3.5%;
+    display: inline-block;
+    margin-top: -0.5%;
+    margin-right: 2%;
+
+}
+
+.member {
+    width: 2.5%;
+    margin-top: 0%;
+    margin-right: 1%;
+}
+
+header a {
+    font-size: 27px;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+    max-width: 1000%;
+}
+
+
+.commodity1 {
+    border: 2px solid #000093;
+    margin: 5% 20% 3% 15%;
+    width: 70%;
+    overflow: hidden;
+    position: absolute;
+    clear: both;
+}
+
+
+.commoditypg {
+    float: left;
+    max-width: 400px;
+    margin: 20px;
+    display: block;
+    z-index: 1;
+}
+
+.commodity p {
+    float: right;
+    margin: 1% 10% 0% 0%;
+}
+
+.shoppingbut {
+    background-color: #000093;
+    color: white;
+    border-color: #000093;
+    font-size: 30px;
+    width: 20%;
+    height: 10%;
+    margin-left: 78%;
+    margin-bottom: 1%;
+}
+
+.money {
+    font-size: 40px;
+    color: #000093;
+}
+
+.wrapper {
+    height: 55px;
+    min-width: 100px;
+    display: flex;
+    border-radius: 6px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper span {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper span.num {
+    font-size: 20pox;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.footer {
+    height: 5%;
+    background-image: url(images/Footerbg.jpg);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}

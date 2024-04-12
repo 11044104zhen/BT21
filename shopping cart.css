@@ -1,0 +1,157 @@
+.logo {
+    width: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 4.5%;
+}
+
+ul,
+li b {
+    margin: 0;
+    padding: 0;
+    font-style: "標楷體";
+    letter-spacing: 12px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+}
+
+li {
+    display: inline-block;
+    margin: 0em 0em 0em 17em;
+    ;
+
+}
+
+.shopping {
+    width: 3.5%;
+    display: inline-block;
+    margin-top: -0.5%;
+    margin-right: 2%;
+
+}
+
+.member {
+    width: 2.5%;
+    margin-top: 0%;
+    margin-right: 1%;
+}
+
+header a {
+    font-size: 27px;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+    max-width: 1000%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3% 0;
+}
+
+thead th {
+    background-color: #000093;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+tbody td img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.product-info h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #888;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.quantity button {
+    background-color: #000093;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+tfoot td {
+    text-align: right;
+}
+
+tfoot td:first-child {
+    font-weight: bold;
+}
+
+tfoot td:last-child {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+button {
+    background-color: #000093;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.footer {
+    height: 5%;
+    background-image: url(images/Footerbg.jpg);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
